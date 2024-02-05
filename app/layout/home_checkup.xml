@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/bg2">
+
+        <TextView
+            android:id="@+id/textMedicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Home Checkup"
+            android:textAlignment="center"
+            android:layout_marginTop="220dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editHospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="0dp"
+            android:hint="Hospital Name"
+            android:textAlignment="textStart"
+            android:inputType="text"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:hint="Time (HH/MM)"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editCheckupType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:hint="Checkup Type"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:hint="Doctor Name"
+            android:textSize="20sp"
+            android:textAlignment="textStart"
+            android:inputType="number" />
+
+
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:text="Submit" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:text="Home Page" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
