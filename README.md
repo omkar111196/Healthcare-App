@@ -1,7 +1,8 @@
 # Healthcare-App
 This is an **HealthCare Application** for assisting old aged people, it has various options which can make their life easy.<br/>
 (Created as an asssignment task for **Kratin LLC**)<br/>
-Here I have used **Android Studio** for developing the app. The Frontend is written in **XML** whereas the backend in **Java**. **Firebase** is used for authentication and database storage.<br/><br/>
+Here I have used **Android Studio** for developing the app. The Frontend is written in **XML** whereas the backend in **Java**. **Firebase** is used for authentication and database storage.<br/>
+The source code for Frontend is in layout folder and Backend in healthcareapp folder.<br/><br/>
 Below are the snapshots of pages.
 1. Login <br/><br/> ![](/snapshots/activity_main.png )<br/>
 2. Sign Up <br/><br/> ![](/snapshots/signup.png)<br/>
